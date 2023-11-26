@@ -411,8 +411,11 @@ line-height: 54px;
 .block4_main .h1design{
     position: relative;
 }
+.big_icon_div, .big_icon_div1, .big_icon_div3, .big_icon_div4{
+    position: relative;
+}
 
-.h1design::before{
+.big_icon_div::before{
     content: "";
     position: absolute;
     top: -35px;
@@ -423,6 +426,44 @@ line-height: 54px;
     right: 0;
 background: url('../assets/images/Ellipse.png');
 }
+
+.big_icon_div3::before{
+    content: "";
+    position: absolute;
+    top: -35px;
+    bottom: 0px;
+    width: 110px;
+    height: 116px;
+    left: -42px;
+    right: 0;
+background: url('../assets/images/Ellipse_20-removebg-preview.png');
+}
+
+.big_icon_div4::before{
+    content: "";
+    position: absolute;
+    top: -35px;
+    bottom: 0px;
+    width: 110px;
+    height: 116px;
+    left: -42px;
+    right: 0;
+background: url('../assets/images/Ellipse_21-removebg-preview.png');
+}
+
+
+.big_icon_div1::before{
+    content: "";
+    position: absolute;
+    top: -35px;
+    bottom: 0px;
+    width: 110px;
+    height: 116px;
+    left: -42px;
+    right: 0;
+background: url('../assets/images/Ellipse_19-.png');
+}
+
 .ul_img_div{
     display: inline-flex;
     
@@ -458,4 +499,78 @@ background: url('../assets/images/Ellipse.png');
 }
 .ul_img{
     padding-top: 5px;
+}
+.block4-modified {
+    display: flex;
+    padding-top: 46px;
+    padding-bottom: 114px;
+    border-bottom-left-radius: 177px;
+}
+
+.text-heading{
+    text-align: center;
+}
+.text-heading h1{
+    
+    color: #FFF;
+    font-family: Century Gothic;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+
+}
+.modified-text{
+    width: 50%;
+    padding:20px 100px;
+}
+.modified-image{
+    width: 50%;
+}
+.modified-text p{
+color: #FFF;
+font-family: Century Gothic;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+opacity: 0.6;
+color: #FFF;
+font-family: Century Gothic;
+
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+padding: 4px 0px;
+}
+.pdesign{
+    opacity: 0.9!important;
+    padding-top: 4px;
+}
+.pdesign1, .pdesign2{
+    opacity: 0.9!important;
+}
+.pdesign2 img{
+       
+        padding-right: 13px;
+}
+.modified-image img{
+    width: 602px;
+    height: 778px;
+    padding-top: 28px;
+}
+
+.text-button-design{
+    color: #FFF;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: transparent;
+    padding: 7px 19px;
+    margin: 20px 0px;
+    border: 2px solid green;
+    border-radius: 20px;
 }
